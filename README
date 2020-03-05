@@ -1,0 +1,13 @@
+
+This program is written for Python3
+Usage: python3 circbuff.py
+
+Program to read file in bytes, write the bytes to a buffer (in bytes), and write those bytes to a file
+
+specify input and output file names in circbuff.py
+Change size of buffer as N
+The file should be less than the size of N or else the buffer will be overwritten.
+Also, the program kicks out if the file size is greater than N.
+
+author: Prasad Golla
+March 2020
