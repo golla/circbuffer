@@ -1,6 +1,13 @@
 
+****************************
 This program is written for Python3
 Usage: python3 circbuff.py
+
+Specify input file as: inputfile.txt or change in program
+Output file is: outputfile.txt or change to anything else (WARNING: This file will be over written.)
+
+You can also specify the directories where the files are read and written to as: IN_DIR and OUT_DIR
+****************************
 
 Program to read file in bytes, write the bytes to a buffer (in bytes), and write those bytes to a file
 
