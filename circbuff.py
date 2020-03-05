@@ -66,9 +66,10 @@ def writeBufferToFile():
     global cbtail
     global cbhead
     global circbuff
+
     try:
       myoutfile = OUT_DIR + OUT_FILE;
-      print("Opening input file: ", myoutfile)
+      print("Opening output file: ", myoutfile)
       with open(myoutfile, "wb") as outf:
           while(somethingInBuff()):
             i = cbhead
@@ -86,6 +87,7 @@ def writeBufferToFile():
 def somethingInBuff():
     global cbtail
     global cbhead
+
     if (cbhead == cbtail):
         return False
     else:
@@ -94,7 +96,7 @@ def somethingInBuff():
 def bufferstat():
     global cbtail
     global cbhead
-    global circbuff
+
     print("** Buff Stats **")
     print("buffer head is", cbhead)
     print("buffer tail is", cbtail)
